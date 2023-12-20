@@ -1,17 +1,17 @@
 module.exports = {
-  extends: ['plugin:prettier/recommended'],
+	extends: ["plugin:prettier/recommended"],
 
-  plugins: ['prettier'],
+	plugins: ["prettier"],
 
-  rules: {
-    'prettier/prettier': 'error',
-  },
+	rules: {
+		"prettier/prettier": "error",
+	},
 
-  parserOptions: {
-    ecmaVersion: 'latest',
-  },
+	parserOptions: {
+		ecmaVersion: "latest",
+	},
 
-  env: {
-    es6: true,
-  },
+	env: {
+		es6: true,
+	},
 };

@@ -1,7 +1,7 @@
-const sequelize = require('../database/connection');
+const sequelize = require("../database/connection");
 
 function modelSync() {
-  sequelize.sync();
+	sequelize.sync();
 }
 
 module.exports = modelSync;
